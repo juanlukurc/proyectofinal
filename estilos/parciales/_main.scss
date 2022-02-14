@@ -1,0 +1,41 @@
+@import "./variables";
+
+/* main */
+
+.titulo__index{
+    text-align: center;
+}
+.equipo{
+    position: relative;
+    margin-left: 8rem;
+    __imagen {
+        width: 80%;
+        height: 80%;
+        object-fit:cover;
+        margin-left: 11px;
+    }
+    
+    __parrafo{
+        position: absolute;
+        font-family:sans-serif;
+        font-size:medium;
+        font-weight: 400;
+        bottom: 0;
+        color:white;
+        background: black;
+        width: auto;
+        margin-left: 11px;
+    }
+    
+}
+
+
+.jugadores__figuras{
+    width: 20rem;
+    height: 20rem;
+}
+.fondo{
+    background: linear-gradient(to left, blue, yellow);
+    margin: 1rem;
+    padding: 0,5rem;
+}

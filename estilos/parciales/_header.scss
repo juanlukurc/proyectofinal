@@ -1,0 +1,43 @@
+@import "./variables";
+
+/* header */
+
+
+.lista {
+    text-decoration: none;
+    list-style: none;
+    display: contents;
+    text-align: center;
+    &__item {
+        list-style: none;
+    }
+}
+
+.sector {
+    margin: 2rem;
+    &__item{
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+    }
+    &__imagenes{
+             display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 200px;
+            padding: 5px;
+            grid-gap: 5px;
+    }
+}
+
+.header {
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 5px #000;
+    top: 0; 
+    right: 0; 
+    left:0;
+    z-index: 10; 
+    background-color: white;
+    box-shadow: 0 0 3px 3px #1a1a1a;
+
+}

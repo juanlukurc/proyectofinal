@@ -1,0 +1,23 @@
+$mapa: (
+    h1: 3rem,
+    h2: 1.5rem,
+    h3: 0.9rem,
+    h4: 0.8rem,
+    h5: 0.5rem,
+    h6: 0.3rem
+    );
+
+h1 {
+    font-size: map-get($map: $mapa, $key: h1);
+}
+h2 {
+    font-size: map-get($map: $mapa, $key: h2);
+}
+h3 {
+    font-size: map-get($map: $mapa, $key:h3 );
+}
+h4 {
+    font-size: map-get($map: $mapa, $key: h4);
+}
+
+$black: black;
